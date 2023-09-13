@@ -8,8 +8,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "preinstall": "npx only-allow pnpm"
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",
