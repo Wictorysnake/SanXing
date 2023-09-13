@@ -46,7 +46,7 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
 
-      -name: Build
+      - name: Build
         run: yarn docs:build
 
       - name: Deploy
