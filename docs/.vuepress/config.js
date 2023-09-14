@@ -2,16 +2,20 @@
  * @Author: wictory
  * @Date: 2023-09-13 19:19:52
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-14 17:47:32
+ * @LastEditTime: 2023-09-14 23:31:54
  * @Description: file content
  */
 module.exports = {
   base: "/SanXing/",
   title: "SanXing",
   description: "前端个人博客",
+  markdown: {
+    lineNumbers: true, // 代码块显示行号
+  },
   themeConfig: {
+    smoothScroll: true, // 页面滚动
     nav: [
-      { text: "博客", link: "/" },
+      { text: "博客", link: "/Guide/getting-started" },
       {
         text: "Github",
         link: "https://github.com/Wictorysnake/SanXing",
@@ -21,7 +25,9 @@ module.exports = {
     sidebar: [
       {
         title: "指南",
-        path: "/",
+        path: "/Guide/getting-started",
+        collapsable: true, // 折叠
+        children: [{ title: "开始", path: "/Guide/getting-started" }],
       },
       {
         title: "HTML",
@@ -39,4 +45,16 @@ module.exports = {
       },
     ],
   },
+  lastUpdated: "Last Updated", // 最后更新时间
+  plugins: [
+    ["@vuepress/back-to-top", true],
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
+    ["@vuepress/medium-zoom", true],
+  ],
 }

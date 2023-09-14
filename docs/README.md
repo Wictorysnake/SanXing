@@ -1,3 +1,13 @@
-# BLOG
-
-文章，都是参考众多文章归纳整理学习而写的，文章包括了 HTML 基础、CSS 基础、JavaScript 基础与拓展、Browser 浏览器相关、Vue 使用与分析、React 使用与分析、Plugin 插件相关、Patterns 设计模式、Linux 命令、LeetCode 题解等类别，内容都是比较基础的，毕竟我也还是个小白，此外基本上每个示例都是本着能够即时运行为目标的，新建一个 html 文件复制之后即可在浏览器运行或者直接可以在 console 中运行。
+---
+home: true
+actionText: 进入文档 →
+actionLink: /Guide/getting-started
+features:
+  - title: 简洁至上
+    details: 以 Markdown 为中心的项目结构，以最少的配置帮助写作，更加专注与内容的编写。
+  - title: 高性能
+    details: 每个页面都预渲染生成静态的 HTML，在页面被加载的时候，将作为 SPA 运行，具有更好的性能和更快速的体验。
+  - title: 响应式
+    details: 响应式页面，能够兼容多种设备。在不同端的设备上，实现相同的浏览体验。
+footer: Be yourself the happiest | Copyright © 2023
+---

@@ -1,11 +1,3 @@
-<!--
- * @Author: wictory
- * @Date: 2023-09-13 18:17:02
- * @LastEditors: wictory
- * @LastEditTime: 2023-09-14 23:18:28
- * @Description: file content
--->
-
 # BLOG
 
 ## Hi
