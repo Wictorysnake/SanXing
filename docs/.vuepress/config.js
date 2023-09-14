@@ -1,3 +1,10 @@
+/*
+ * @Author: wictory
+ * @Date: 2023-09-13 19:19:52
+ * @LastEditors: wictory
+ * @LastEditTime: 2023-09-14 17:47:32
+ * @Description: file content
+ */
 module.exports = {
   base: "/SanXing/",
   title: "SanXing",
@@ -21,6 +28,14 @@ module.exports = {
         path: "/HTML/DOCTYPE", // 默认激活的选项
         collapsable: true, // 折叠
         children: [{ title: "DOCTYPE", path: "/HTML/DOCTYPE" }],
+      },
+      {
+        title: "OperationMaintenance",
+        path: "/OperationMaintenance/原生之初", // 默认激活的选项
+        collapsable: true, // 折叠
+        children: [
+          { title: "原生之初", path: "/OperationMaintenance/原生之初" },
+        ],
       },
     ],
   },
