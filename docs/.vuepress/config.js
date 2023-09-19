@@ -2,9 +2,11 @@
  * @Author: wictory
  * @Date: 2023-09-13 19:19:52
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-14 23:31:54
+ * @LastEditTime: 2023-09-18 18:06:15
  * @Description: file content
  */
+const sidebar = require('./config/sidebar/index.js')
+console.log(sidebar)
 module.exports = {
   base: "/SanXing/",
   title: "SanXing",
@@ -22,30 +24,32 @@ module.exports = {
       },
     ],
     // 侧边栏配置
-    sidebar: [
-      {
-        title: "指南",
-        path: "/Guide/getting-started",
-        collapsable: true, // 折叠
-        children: [{ title: "开始", path: "/Guide/getting-started" }],
-      },
-      {
-        title: "HTML",
-        path: "/HTML/DOCTYPE", // 默认激活的选项
-        collapsable: true, // 折叠
-        children: [{ title: "DOCTYPE", path: "/HTML/DOCTYPE" }],
-      },
-      {
-        title: "OperationMaintenance",
-        path: "/OperationMaintenance/原生之初", // 默认激活的选项
-        collapsable: true, // 折叠
-        children: [
-          { title: "原生之初", path: "/OperationMaintenance/原生之初" },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     title: "指南",
+    //     path: "/Guide/getting-started",
+    //     collapsable: true, // 折叠
+    //     children: [{ title: "开始", path: "/Guide/getting-started" }],
+    //   },
+    //   {
+    //     title: "HTML",
+    //     path: "/HTML/DOCTYPE", // 默认激活的选项
+    //     collapsable: true, // 折叠
+    //     children: [{ title: "DOCTYPE", path: "/HTML/DOCTYPE" }],
+    //   },
+    //   {
+    //     title: "OperationMaintenance",
+    //     path: "/OperationMaintenance/原生之初", // 默认激活的选项
+    //     collapsable: true, // 折叠
+    //     children: [
+    //       { title: "原生之初", path: "/OperationMaintenance/原生之初" },
+    //     ],
+    //   },
+    // ],
+    sidebar,
+    lastUpdated: "Last Updated", // 最后更新时间
   },
-  lastUpdated: "Last Updated", // 最后更新时间
+  
   plugins: [
     ["@vuepress/back-to-top", true],
     [
