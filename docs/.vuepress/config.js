@@ -2,11 +2,11 @@
  * @Author: wictory
  * @Date: 2023-09-13 19:19:52
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-18 18:06:15
+ * @LastEditTime: 2023-09-19 13:15:05
  * @Description: file content
  */
 const sidebar = require('./config/sidebar/index.js')
-console.log(sidebar)
+// console.log(sidebar)
 module.exports = {
   base: "/SanXing/",
   title: "SanXing",

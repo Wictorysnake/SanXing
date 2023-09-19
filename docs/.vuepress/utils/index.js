@@ -2,7 +2,7 @@
  * @Author: wictory
  * @Date: 2023-09-18 15:57:57
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-19 13:08:07
+ * @LastEditTime: 2023-09-19 13:14:36
  * @Description: file content
  */
 const path = require("path")
@@ -83,7 +83,7 @@ const sidebarHelper = {
   // 复杂的分组
   genGroupSideBar(rootpath, ignoreDir, suffixIncludes) {
     const dirData = readDirToObjTree(rootpath, ignoreDir, suffixIncludes)
-    console.log(dirData)
+    // console.log(dirData)
     const sidebar = []
     const recursive = (rpath, data) => {
       const _data = []
@@ -194,7 +194,7 @@ const sidebarHelper = {
           })
         }
       })
-      console.log(data)
+      // console.log(data)
       return data
     }
 
