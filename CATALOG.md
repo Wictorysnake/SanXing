@@ -2,7 +2,7 @@
  * @Author: wictory
  * @Date: 2023-09-14 16:42:55
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-20 14:43:28
+ * @LastEditTime: 2023-09-20 15:25:21
  * @Description: file content
 -->
 
@@ -34,5 +34,6 @@
 > 新增 Network(网络)目录，并新增 [前端缓存](docs/Network/前端缓存.md)。
 > 新增 CSS 目录，并新增 [元素水平垂直居中](docs/CSS/元素水平垂直居中.md)。
 > 更新 JavaScript 目录，新增 [var、let、const的区别及使用场景](docs/JavaScript/var、let、const.md)。
+> 新增 Vue 目录，并新增 [vue2源码解读（1）](docs/Vue/vue2源码解读（1）.md)。
 
 <br />
