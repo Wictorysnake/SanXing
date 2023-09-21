@@ -2,7 +2,7 @@
  * @Author: wictory
  * @Date: 2023-09-14 16:42:55
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-20 15:25:21
+ * @LastEditTime: 2023-09-21 16:00:56
  * @Description: file content
 -->
 
@@ -35,5 +35,14 @@
 > 新增 CSS 目录，并新增 [元素水平垂直居中](docs/CSS/元素水平垂直居中.md)。
 > 更新 JavaScript 目录，新增 [var、let、const的区别及使用场景](docs/JavaScript/var、let、const.md)。
 > 新增 Vue 目录，并新增 [vue2源码解读（1）](docs/Vue/vue2源码解读（1）.md)。
+
+<br />
+
+**2023-09-21**
+
+> 更新 JavaScript 目录，新增 [Class](docs/JavaScript/Class.md)。
+> 更新 JavaScript 目录，新增 [Promise](docs/JavaScript/Promise.md)。
+> 更新 JavaScript 目录，新增 [Decorator](docs/JavaScript/Decorator.md)。
+> 更新 Vue 目录，新增 [vue2源码解读（2）](docs/Vue/vue2源码解读（2）.md)。
 
 <br />
