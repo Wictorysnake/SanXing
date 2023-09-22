@@ -2,7 +2,7 @@
  * @Author: wictory
  * @Date: 2023-09-14 16:42:55
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-21 16:00:56
+ * @LastEditTime: 2023-09-22 16:07:54
  * @Description: file content
 -->
 
@@ -44,5 +44,14 @@
 > 更新 JavaScript 目录，新增 [Promise](docs/JavaScript/Promise.md)。
 > 更新 JavaScript 目录，新增 [Decorator](docs/JavaScript/Decorator.md)。
 > 更新 Vue 目录，新增 [vue2源码解读（2）](docs/Vue/vue2源码解读（2）.md)。
+
+<br />
+
+**2023-09-21**
+
+> 更新 JavaScript 目录，新增 [Proxy](docs/JavaScript/Proxy.md)。
+> 更新 JavaScript 目录，新增 [ES6新增的数据类型](docs/JavaScript/ES6新增的数据类型.md)。
+> 更新 Vue 目录，新增 [生命周期及其使用场景](docs/Vue/生命周期及其使用场景.md)。
+> 更新 Vue 目录，新增 [vue2源码解读（3）](docs/Vue/vue2源码解读（3）.md)。
 
 <br />
