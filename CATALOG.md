@@ -2,7 +2,7 @@
  * @Author: wictory
  * @Date: 2023-09-14 16:42:55
  * @LastEditors: wictory
- * @LastEditTime: 2023-09-22 16:07:54
+ * @LastEditTime: 2023-09-24 16:35:43
  * @Description: file content
 -->
 
@@ -47,11 +47,21 @@
 
 <br />
 
-**2023-09-21**
+**2023-09-22**
 
 > 更新 JavaScript 目录，新增 [Proxy](docs/JavaScript/Proxy.md)。
 > 更新 JavaScript 目录，新增 [ES6新增的数据类型](docs/JavaScript/ES6新增的数据类型.md)。
 > 更新 Vue 目录，新增 [生命周期及其使用场景](docs/Vue/生命周期及其使用场景.md)。
 > 更新 Vue 目录，新增 [vue2源码解读（3）](docs/Vue/vue2源码解读（3）.md)。
+
+<br />
+
+**2023-09-24**
+
+> 更新 OperationMaintenance 目录，更新 [原生之初](docs/OperationMaintenance/原生之初.md)。
+> 更新 Vue 目录，新增 [组件通信](docs/Vue/组件通信.md)。
+> 更新 Vue 目录，新增 [vue-router的模式](docs/Vue/vue-router的模式.md)。
+> 更新 Vue 目录，新增 [keepalive](docs/Vue/keepalive.md)。
+> 更新 Vue 目录，新增 [vue2源码解读（4）](docs/Vue/vue2源码解读（4）.md)。
 
 <br />
