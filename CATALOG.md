@@ -76,8 +76,16 @@
 
 **2023-10-11**
 
-> 更新 Vue 目录，新增 [vue-router的钩子](docs/Vue/vue-router的钩子.md)。  
-> 更新 Vue 目录，新增 [vuex简述](docs/Vue/vuex简述.md)。  
+> 更新 Vue 目录，新增 [vue-router 的钩子](docs/Vue/vue-router的钩子.md)。  
+> 更新 Vue 目录，新增 [vuex 简述](docs/Vue/vuex简述.md)。  
 > 新增 Life 目录，新增 [空窗期如何准备面试](docs/Life/空窗期如何准备面试.md)。
+
+<br />
+
+**2023-10-24**
+
+> 新增 Algorithm 目录，新增 [动态规划](docs/Algorithm/动态规划.md)。  
+> 新增 VSCode 目录，新增 [debug 篇](docs/VSCode/debug篇.md)。  
+> 新增 Test 目录，新增 [jest 篇](docs/Test/jest篇.md)。
 
 <br />
